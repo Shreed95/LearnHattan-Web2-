@@ -10,7 +10,7 @@ export const useLogInTutor = () => {
     setIsLoading(true);
     setError(null);
 
-    const response = await fetch("https://learnhattan-mern.vercel.app/api/tutor/login", {
+    const response = await fetch("/api/tutor/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

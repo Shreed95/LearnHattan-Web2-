@@ -16,27 +16,27 @@ const Dashboard = () => {
   useEffect(() => {
     const fetchUserData = async () => {
       try {
-        const response = await axios.get(`https://learnhattan-mern.vercel.app/api/users/${user2.user}`);
+        const response = await axios.get(`/api/users/${user2.user}`);
         setUser(response.data.user);
 
         const achievementsData = await Promise.all(
           response.data.user.achievements.map(async (achievementId) => {
-            const achievementResponse = await axios.get(`https://learnhattan-mern.vercel.app/api/achivements/${achievementId}`);
+            const achievementResponse = await axios.get(`/api/achivements/${achievementId}`);
             return achievementResponse.data;
           })
         );
         setAchievements(achievementsData);
 
-        const checkResponse = await axios.get(`https://learnhattan-mern.vercel.app/api/dashboard/user/${user2.user}`);
+        const checkResponse = await axios.get(`/api/dashboard/user/${user2.user}`);
         setCheck(checkResponse.data);
 
         if (checkResponse.data) {
-          const profileData = await axios.get(`https://learnhattan-mern.vercel.app/api/dashboard/user/display/${user2.user}`);
+          const profileData = await axios.get(`/api/dashboard/user/display/${user2.user}`);
           // console.log(profileData.data)
           setCheck(profileData.data)
         }
 
-        const enrolledCoursesResponse = await axios.get(`https://learnhattan-mern.vercel.app/api/users/enrolled-courses/${user2.user}`);
+        const enrolledCoursesResponse = await axios.get(`/api/users/enrolled-courses/${user2.user}`);
         setEnrolledCourses(enrolledCoursesResponse.data.enrolledCourses);
 
       } catch (error) {

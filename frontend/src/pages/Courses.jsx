@@ -12,7 +12,7 @@ const Courses = () => {
     const fetchCourses = async () => {
       try {
         const response = await axios.get(
-          "https://learnhattan-mern.vercel.app/api/users/allcourses"
+          "/api/users/allcourses"
         );
         setCourses(response.data.courses);
       } catch (error) {

@@ -16,7 +16,7 @@ const Contributor = () => {
   useEffect(() => {
     const fetchMarkedCourses = async () => {
       try {
-        const response = await axios.get(`https://learnhattan-mern.vercel.app/api/users/${user2.user}/marked-courses`);
+        const response = await axios.get(`/api/users/${user2.user}/marked-courses`);
         setMarkedCourses(response.data.data);
         setIsLoading(false);
       } catch (error) {
@@ -30,7 +30,7 @@ const Contributor = () => {
 
   const handleReviewClick = async (courseId) => {
     try {
-      const response = await axios.get(`https://learnhattan-mern.vercel.app/api/submissions/allSubmissions/${courseId}`);
+      const response = await axios.get(`/api/submissions/allSubmissions/${courseId}`);
       setSubmissions(response.data.submissions);
       setSelectedCourse(courseId);
     } catch (error) {
@@ -40,7 +40,7 @@ const Contributor = () => {
 
   const getUserName = async (userId) => {
     try {
-      const response = await axios.get(`https://learnhattan-mern.vercel.app/api/users/${userId}`);
+      const response = await axios.get(`/api/users/${userId}`);
       setUsernames(prevState => ({
         ...prevState,
         [userId]: response.data.user.username
@@ -62,7 +62,7 @@ const Contributor = () => {
 
   const handleApproveSubmission = async (assignmentId) => {
     try {
-      const response = await axios.post(`https://learnhattan-mern.vercel.app/api/users/mark-complete/${user2.user}/${assignmentId}`);
+      const response = await axios.post(`/api/users/mark-complete/${user2.user}/${assignmentId}`);
       if (response.data.success) {
         console.log("approved successfully");
       }
@@ -73,7 +73,7 @@ const Contributor = () => {
 
   const handleRejectSubmission = async (assignmentId) => {
     try {
-      const response=await axios.post(`https://learnhattan-mern.vercel.app/api/users/mark-reject/${user2.user}/${assignmentId}`);
+      const response=await axios.post(`/api/users/mark-reject/${user2.user}/${assignmentId}`);
       if(response.data.success){
         console.log("rejected successfully");
       }

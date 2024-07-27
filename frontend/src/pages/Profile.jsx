@@ -31,7 +31,7 @@ const Profile = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('https://learnhattan-mern.vercel.app/api/dashboard/user/saveInfo', {
+      const response = await axios.post('/api/dashboard/user/saveInfo', {
         id: id,
         photo: photo,
         description: description,

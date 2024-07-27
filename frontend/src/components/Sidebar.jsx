@@ -23,15 +23,15 @@ const Sidebar = () => {
   useEffect(() => {
     const fetchUserData = async () => {
       try {
-        const response = await axios.get(`https://learnhattan-mern.vercel.app/api/users/${user2.user}`);
+        const response = await axios.get(`/api/users/${user2.user}`);
         setUser(response.data.user);
 
 
-        // const checkResponse = await axios.get(`https://learnhattan-mern.vercel.app/api/dashboard/user/${user2.user}`);
+        // const checkResponse = await axios.get(`/api/dashboard/user/${user2.user}`);
         // setCheck(checkResponse.data);
 
         
-        const profileData = await axios.get(`https://learnhattan-mern.vercel.app/api/dashboard/user/display/${user2.user}`);
+        const profileData = await axios.get(`/api/dashboard/user/display/${user2.user}`);
         // console.log(profileData.data)
         setUser(profileData.data)
         

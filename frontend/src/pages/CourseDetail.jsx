@@ -25,7 +25,7 @@ const CourseDetail = () => {
     const fetchCourseDetail = async () => {
       try {
         const response = await axios.get(
-          `https://learnhattan-mern.vercel.app/api/courses/${courseId}`
+          `/api/courses/${courseId}`
         );
         setCourse(response.data.course);
       } catch (error) {
@@ -41,7 +41,7 @@ const CourseDetail = () => {
     // Function to fetch contributors when the component mounts
     const fetchContributors = async () => {
       try {
-        const response = await axios.get(`https://learnhattan-mern.vercel.app/api/courses/${courseId}/contributors`);
+        const response = await axios.get(`/api/courses/${courseId}/contributors`);
         setContributors(response.data.contributors);
       } catch (error) {
         console.error('Error fetching contributors:', error);
@@ -67,7 +67,7 @@ const CourseDetail = () => {
       const userId = user2.user;
       const courseId = course._id;
       const response = await axios.post(
-        `https://learnhattan-mern.vercel.app/api/submissions/submit/${userId}/${courseId}/${assignmentId}`,
+        `/api/submissions/submit/${userId}/${courseId}/${assignmentId}`,
         { code }
       );
 

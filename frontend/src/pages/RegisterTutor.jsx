@@ -19,7 +19,7 @@ const RegisterTutor = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const response = await fetch("https://learnhattan-mern.vercel.app/api/tutor/register", {
+    const response = await fetch("/api/tutor/register", {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
