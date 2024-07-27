@@ -1,0 +1,96 @@
+/* roadMapComponent.css */
+
+.roadmap-main-container {
+  margin-top: 200px;
+}
+
+.roadmap-main-container h2 {
+  text-align: center;
+  font-size: 1.875rem;
+  font-weight: 500;
+  margin-bottom: 3rem;
+}
+
+.roadmap-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.roadmap-element {
+  display: flex;
+  padding: 10px;
+  /* border: 1px solid #ccc; */
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.roadmap-element img {
+  width: 30%;
+  mix-blend-mode: lighten;
+  animation: zoomInOut 5s infinite;
+}
+
+.roadmap-element.alternate {
+  align-self: flex-end;
+}
+
+.roadmap-element:not(.alternate) h3 {
+  margin-left: 6rem;
+  margin-top: 10rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.roadmap-element.alternate h3 {
+  margin-left: 6rem;
+  margin-top: 10rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.roadmap-element.alternate img {
+  align-self: flex-end;
+}
+
+.roadmap-element:not(.alternate) {
+  align-self: flex-start;
+  text-align: right;
+  margin-left: 300px;
+}
+
+/* For the second element with 25% width */
+.roadmap-element:nth-child(1),
+.roadmap-element:nth-child(3),
+.roadmap-element:nth-child(5) {
+  width: 80%;
+}
+
+.roadmap-element:nth-child(1) img,
+.roadmap-element:nth-child(3) img,
+.roadmap-element:nth-child(5) img {
+  margin-left: -100px;
+}
+
+.roadmap-element:nth-child(2) img,
+.roadmap-element:nth-child(4) img {
+  margin-left: 300px;
+}
+
+/* For the third element with 75% width */
+.roadmap-element:nth-child(2),
+.roadmap-element:nth-child(4) {
+  width: 80%;
+}
+
+/* Animation */
+@keyframes zoomInOut {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

@@ -1,0 +1,85 @@
+.menu-toggle {
+  display: flex;
+  align-items: center; /* Center items vertically */
+  font-size: 1.2rem;
+  color: #f0f2f5;
+  text-decoration: none;
+  padding: 10px;
+  transition: background-color 0.3s;
+  z-index: 999;
+}
+
+.menu-toggle div {
+  width: 25px;
+  height: 3px;
+  font-size: 1.2rem;
+  background-color: #f0f2f5;
+  margin: 5px;
+  transition: transform 0.3s ease;
+}
+
+.sideMenu {
+  background-color: #1e1e1e;
+  height: 100%;
+  position: fixed;
+  margin-top: 85px;
+  margin-left: 5px;
+  top: 0;
+  left: 0;
+  color: #f0f2f5;
+  font-family: Arial, sans-serif;
+  transition: width 0.3s ease;
+  border-radius: 10px; /* Rounded corners */
+}
+
+.sideMenu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sideMenu li {
+  margin-bottom: 10px;
+}
+
+.sidebar-link {
+  display: flex;
+  align-items: center; /* Center items vertically */
+  font-size: 1.2rem;
+  color: #f0f2f5;
+  text-decoration: none;
+  padding: 10px;
+  transition: background-color 0.3s;
+}
+
+.sidebar-link svg {
+  margin-right: 10px; /* Add some space between the icon and text */
+}
+
+.sidebar-link:hover {
+  background-color: #555;
+}
+
+.sideMenu.closed {
+  width: 50px;
+}
+
+.sideMenu.closed .sidebar-link {
+  display: none;
+}
+
+.sideMenu.closed .menu-toggle .line1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.sideMenu.closed .menu-toggle .line2 {
+  opacity: 0;
+}
+
+.sideMenu.closed .menu-toggle .line3 {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+
+.sideMenu.open {
+  margin-top: 4.6rem;
+  width: 170px; /* Adjusted width for closed sidebar */
+}

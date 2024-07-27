@@ -1,0 +1,88 @@
+[
+  {
+    "id": 1,
+    "name": "Course 1",
+    "description": "This is the description for Course 1. It covers various topics related to...",
+    "videos": [
+      {
+        "id": 101,
+        "url": "https://gateway.lighthouse.storage/ipfs/QmfFpiMX6Cz1wiXBH6UZkgADc9sLaCqULokzzyuNvwo5Sg"
+      },
+      {
+        "id": 102,
+        "url": "https://gateway.lighthouse.storage/ipfs/QmPPh53t9EDdWwq8DASdRmppVQdTmt9Teae4yj3aKfXQBb"
+      },
+      {
+        "id": 103,
+        "url": "https://gateway.lighthouse.storage/ipfs/QmPPh53t9EDdWwq8DASdRmppVQdTmt9Teae4yj3aKfXQBb"
+      },
+      {
+        "id": 104,
+        "url": "https://gateway.lighthouse.storage/ipfs/QmPPh53t9EDdWwq8DASdRmppVQdTmt9Teae4yj3aKfXQBb"
+      },
+      {
+        "id": 105,
+        "url": "https://gateway.lighthouse.storage/ipfs/QmPPh53t9EDdWwq8DASdRmppVQdTmt9Teae4yj3aKfXQBb"
+      },
+      {
+        "id": 106,
+        "url": "https://gateway.lighthouse.storage/ipfs/QmPPh53t9EDdWwq8DASdRmppVQdTmt9Teae4yj3aKfXQBb"
+      },
+      {
+        "id": 107,
+        "url": "https://gateway.lighthouse.storage/ipfs/QmPPh53t9EDdWwq8DASdRmppVQdTmt9Teae4yj3aKfXQBb"
+      },
+      {
+        "id": 108,
+        "url": "https://gateway.lighthouse.storage/ipfs/QmPPh53t9EDdWwq8DASdRmppVQdTmt9Teae4yj3aKfXQBb"
+      },
+      {
+        "id": 109,
+        "url": "https://gateway.lighthouse.storage/ipfs/QmPPh53t9EDdWwq8DASdRmppVQdTmt9Teae4yj3aKfXQBb"
+      },
+      {
+        "id": 110,
+        "url": "https://gateway.lighthouse.storage/ipfs/QmPPh53t9EDdWwq8DASdRmppVQdTmt9Teae4yj3aKfXQBb"
+      },
+      {
+        "id": 111,
+        "url": "https://gateway.lighthouse.storage/ipfs/QmPPh53t9EDdWwq8DASdRmppVQdTmt9Teae4yj3aKfXQBb"
+      }
+    ],
+    "contributors": [
+      {
+        "name": "Contributor 1",
+        "avatar": "https://avatars.githubusercontent.com/u/1?v=4"
+      },
+      {
+        "name": "Contributor 2",
+        "avatar": "https://avatars.githubusercontent.com/u/2?v=4"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Course 2",
+    "description": "This is the description for Course 2. It covers various topics related to...",
+    "videos": [
+      {
+        "id": 201,
+        "url": "https://gateway.lighthouse.storage/ipfs/QmPPh53t9EDdWwq8DASdRmppVQdTmt9Teae4yj3aKfXQBb"
+      },
+      {
+        "id": 202,
+        "url": "https://gateway.lighthouse.storage/ipfs/QmPPh53t9EDdWwq8DASdRmppVQdTmt9Teae4yj3aKfXQBb"
+      }
+    ],
+    "contributors": [
+      {
+        "name": "Contributor A",
+        "avatar": "https://avatars.githubusercontent.com/u/10?v=4"
+      },
+      {
+        "name": "Contributor B",
+        "avatar": "https://avatars.githubusercontent.com/u/20?v=4"
+      }
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "name": "John Doe",
+  "photo": "path/to/photo.jpg",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  "additionalDetails": ["23", "Noida", "CSE", "Bitcoin"],
+  "trophies": [
+    { "id": 1, "name": "Trophy 1" },
+    { "id": 2, "name": "Trophy 2" },
+    { "id": 3, "name": "Trophy 3" }
+  ],
+  "walletIntegrationTitle": "Wallet Integration API block"
+}

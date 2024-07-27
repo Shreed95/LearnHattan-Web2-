@@ -1,0 +1,29 @@
+.tags-input-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.tag-item {
+  background-color: #b12cff;
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.tag-item .close {
+  cursor: pointer;
+}
+
+.tags-input {
+  padding: 4px 8px;
+  border: 1px solid #b12cff;
+  border-radius: 4px;
+  outline: none;
+  color: black;
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "icon": "FaBitcoin",
+    "title": "Courses as NFT",
+    "description": "Courses and content by tutors are ranked based on popularity. Prices of content are varied like NFTs."
+  },
+  {
+    "icon": "FaGlobe",
+    "title": "Community",
+    "description": "An open network allows the global education community to collaborative develop, improve and expand the content library overtime."
+  },
+  {
+    "icon": "FaHandHoldingUsd",
+    "title": "Access & Afford",
+    "description": "Decentralized education marketplace where student can access no cost or free learning resources from around world."
+  },
+  {
+    "icon": "FaChalkboardTeacher",
+    "title": "Adaptive Learning",
+    "description": "Use analytics to personalize content, and difficulty levels based on performance like a game."
+  },
+  {
+    "icon": "FaUserGraduate",
+    "title": "Creator-Student",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit, dolore iste inventore debitis est incidunt."
+  },
+  {
+    "icon": "FaTrophy",
+    "title": "Incentivisation",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore aperiam possimus animi, cupiditate ad et."
+  }
+]

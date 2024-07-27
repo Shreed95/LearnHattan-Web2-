@@ -1,0 +1,4 @@
+[
+  { "name": "User1", "photo": "XYZ", "rank": 1, "tier": 1, "xp": 1 },
+  { "name": "User2", "photo": "ABC", "rank": 2, "tier": 2, "xp": 2 }
+]

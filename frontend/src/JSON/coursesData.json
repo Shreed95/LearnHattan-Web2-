@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "title": "Course 1",
+    "teacher": "Yash",
+    "tags": ["sol"],
+    "image": "/assets/images/img1.png"
+  },
+  {
+    "id": 2,
+    "title": "Course 2",
+    "teacher": "Yash",
+    "tags": ["sol", "web3"],
+    "image": "/assets/images/img2.png"
+  },
+  {
+    "id": 3,
+    "title": "Course 3",
+    "teacher": "Yash",
+    "tags": ["sol", "marketing"],
+    "image": "/assets/images/img3.png"
+  },
+  {
+    "id": 4,
+    "title": "Course 4",
+    "teacher": "Yash",
+    "tags": ["sol", "ai"],
+    "image": "/assets/images/img4.png"
+  },
+  {
+    "id": 5,
+    "title": "Course 5",
+    "teacher": "Yash",
+    "tags": ["sol", "startup"],
+    "image": "/assets/images/img5.png"
+  },
+  {
+    "id": 6,
+    "title": "Course 6",
+    "teacher": "Yash",
+    "tags": ["sol", "blockchain", "startup", "marketing", "no", "web3"],
+    "image": "/assets/images/img6.png"
+  },
+  {
+    "id": 7,
+    "title": "Course 7",
+    "teacher": "Yash",
+    "tags": ["sol", "blockchain", "startup", "marketing", "no", "web3"],
+    "image": "/assets/images/img6.png"
+  },
+  {
+    "id": 8,
+    "title": "Course 8",
+    "teacher": "Yash",
+    "tags": ["sol", "blockchain", "startup", "marketing", "no", "web3"],
+    "image": "/assets/images/img6.png"
+  },
+  {
+    "id": 9,
+    "title": "Course 9",
+    "teacher": "Yash",
+    "tags": ["sol", "blockchain", "startup", "marketing", "no", "web3"],
+    "image": "/assets/images/img6.png"
+  }
+]
