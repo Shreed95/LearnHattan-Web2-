@@ -28,9 +28,8 @@ const courseSchema = new mongoose.Schema({
     url: String
   }],
   assignments: [{
-    title: String,
-    description: String,
-    deadline: Date
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'Assignment'
   }],
   contributors: [{
     type: mongoose.Schema.Types.ObjectId,
